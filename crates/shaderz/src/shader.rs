@@ -58,6 +58,6 @@ pub struct ShaderFunction {
 
 impl fmt::Display for ShaderFunction {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        write!(f, "{} {}({}) {{\n\n }}", self.t, self.name, self.arguments)
+        write!(f, "{} {}({}) {{\n\n}}", self.t, self.name, self.arguments)
     }
 }
