@@ -1,0 +1,12 @@
+[package]
+name = "procmacros"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "procmacros"
+proc-macro = true
+path = "src/lib.rs"
+
+[dependencies]
+shaderz = { path = "../shaderz/" }

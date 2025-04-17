@@ -1,0 +1,16 @@
+[package]
+name = "Example"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "Example"
+version = "0.1.0"
+path = "src/main.rs"
+
+[workspace]
+members = ["crates/procmacros", "crates/shaderz"]
+
+[dependencies]
+shaderz = { path = "crates/shaderz" }
+procmacros = { path = "crates/procmacros" }
